@@ -2,11 +2,7 @@
   "name": "connected-cells",
   "version": "1.0.0",
   "description": "A Typescript exercise in search algorithm",
-  "main": "index.js",
-  "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"tsc": "tsc || true"
-  },
+  "main": "index.tsx",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MoneyLion/connected-cells.git"
@@ -17,7 +13,21 @@
     "url": "https://github.com/MoneyLion/connected-cells/issues"
   },
   "homepage": "https://github.com/MoneyLion/connected-cells#readme",
+  "scripts": {
+    "start": "node scripts/start.js"
+  },
   "dependencies": {
-    "typescript": "^2.4.2"
+    "@types/classnames": "^2.2.6",
+    "classnames": "^2.2.6",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts-ts": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "typescript": "^3.2.2"
   }
 }
