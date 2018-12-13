@@ -1,3 +1,7 @@
+# Please install all necessary modules
+# npm start / yarn start
+## Click on cells to update them
+
 # connected-cells
 A Typescript exercise in search algorithm
 
